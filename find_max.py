@@ -2,10 +2,7 @@ def get_max(a, b):
     """
         return maximum among a and b
     """
-    if a<b:
-        return b
-    else:
-        return a
+    return b if a<b else a
 
 
 def get_max_without_arguments():
